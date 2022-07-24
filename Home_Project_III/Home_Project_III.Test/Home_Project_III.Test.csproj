@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Home_Project_III.Logic\Home_Project_III.Logic.csproj" />
+    <ProjectReference Include="..\Home_Project_III.Models\Home_Project_III.Models.csproj" />
+    <ProjectReference Include="..\Home_Project_III.Repository\Home_Project_III.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
