@@ -34,7 +34,7 @@ namespace Home_Project_III.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            List<UserInformation> listau = new List<UserInformation>()
+            List<UserInformation> lista1 = new List<UserInformation>()
             {
 new UserInformation() { Full_Name=" Test     ",Email="	kwaghorne0@soundcloud.com	",Age=  41  ,Height=    186 ,Weight=    82  ,UserID=    1   ,Premium=   false   },
 new UserInformation() { Full_Name="	Desiri Wardington	",Email="	dwardington1@rediff.com	",Age=  27  ,Height=    179 ,Weight=    71  ,UserID=    2   ,Premium=   true    },
@@ -447,6 +447,9 @@ new RunInformation() { RunID=   200 ,UserID=    2   ,Distance=  45.4    ,Time="0
 
             };
 
+            modelBuilder.Entity<RunInformation>().HasData(lista3);
+            modelBuilder.Entity<PasswordSecurity>().HasData(lista2);
+            modelBuilder.Entity<UserInformation>().HasData(lista1);
         }
     }
 }
