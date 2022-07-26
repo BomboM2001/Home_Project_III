@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Home_Project_III.Models
 {
     [Table("Runs")]
-    public class RunInformation : IModelClass
+    public class RunInformation 
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

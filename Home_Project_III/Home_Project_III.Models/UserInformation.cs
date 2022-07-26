@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Home_Project_III.Models
 {
     [Table("Users")]
-    public class UserInformation : IModelClass
+    public class UserInformation
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

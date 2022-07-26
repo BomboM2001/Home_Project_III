@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Home_Project_III.Models
 {
     [Table("Passwords")]
-    public class PasswordSecurity : IModelClass
+    public class PasswordSecurity
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
